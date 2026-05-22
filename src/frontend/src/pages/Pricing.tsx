@@ -438,7 +438,7 @@ export function PricingPage() {
           <AnimatedSection>
             <SectionHeading
               label="IT Support Plans"
-              title="Managed IT for Australian Businesses"
+              title="Managed IT for Businesses Worldwide"
               subtitle="Month-to-month plans. No lock-in contracts. Cancel anytime with 30 days notice."
               className="mb-12"
             />

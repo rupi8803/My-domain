@@ -273,9 +273,10 @@ export function BusinessITPage() {
             <div className="max-w-3xl mx-auto text-center">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Many businesses come to us unsure whether they need a new
-                website, IT support, or both. That's exactly why we built this
-                service — a single assessment, a tailored plan, and one team to
-                deliver and maintain it all.
+                website, IT support, or both — no matter where they are in the
+                world. That's exactly why we built this service — a single
+                assessment, a tailored plan, and one team to deliver and
+                maintain it all.
               </p>
             </div>
           </AnimatedSection>

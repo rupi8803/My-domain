@@ -91,7 +91,7 @@ export function HospitalityPage() {
       <PageHero
         label="Hospitality & Tourism"
         title="Technology Solutions for Hospitality — Fast Service, Happy Guests, Smooth Operations"
-        subtitle="Cafés, restaurants, hotels, and venues trust TechPro for the integrated systems, reliable IT support, and fast response that keeps guests happy and revenue flowing."
+        subtitle="Cafés, restaurants, hotels, and venues worldwide trust 1913.in for the integrated systems, reliable IT support, and fast response that keeps guests happy and revenue flowing."
         ctas={[
           { label: "Get POS Demo", href: "/contact", variant: "primary" },
           { label: "Book Consultation", href: "/contact", variant: "outline" },

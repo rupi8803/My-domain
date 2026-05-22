@@ -4,7 +4,7 @@ import { CTAButton } from "./CTAButton";
 interface HeroCTA {
   label: string;
   href: string;
-  variant?: "primary" | "secondary" | "outline";
+  variant?: "primary" | "secondary" | "outline" | "hero";
 }
 
 interface PageHeroProps {
@@ -62,7 +62,10 @@ export function PageHero({
             {title}
           </h1>
           {subtitle && (
-            <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl leading-relaxed mb-8">
+            <p
+              className="text-white/90 text-lg md:text-xl max-w-2xl leading-relaxed mb-8"
+              style={{ color: "#cccccc" }}
+            >
               {subtitle}
             </p>
           )}
@@ -73,7 +76,7 @@ export function PageHero({
                   key={cta.href}
                   label={cta.label}
                   href={cta.href}
-                  variant={cta.variant || (i === 0 ? "primary" : "outline")}
+                  variant={cta.variant || (i === 0 ? "hero" : "outline")}
                   showArrow={i === 0}
                   data-ocid={`hero.cta_${i + 1}`}
                 />

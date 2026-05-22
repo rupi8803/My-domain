@@ -394,7 +394,7 @@ export function FreeITAuditPage() {
             <SectionHeading
               label="What Businesses Say"
               title="Real Results from Real Audits"
-              subtitle="Businesses across Australia have used our free IT audit to uncover risks they never knew existed."
+              subtitle="Businesses around the world have used our free IT audit to uncover risks they never knew existed."
               className="mb-14"
             />
           </AnimatedSection>
@@ -496,7 +496,7 @@ export function FreeITAuditPage() {
                           onChange={(e) =>
                             setForm({ ...form, companyName: e.target.value })
                           }
-                          placeholder="Your Business Pty Ltd"
+                          placeholder="Your Business LLC / Ltd"
                           required
                           data-ocid="audit.company_input"
                         />
@@ -526,7 +526,7 @@ export function FreeITAuditPage() {
                           onChange={(e) =>
                             setForm({ ...form, email: e.target.value })
                           }
-                          placeholder="jane@business.com.au"
+                          placeholder="jane@business.com"
                           required
                           data-ocid="audit.email_input"
                         />
@@ -539,7 +539,7 @@ export function FreeITAuditPage() {
                           onChange={(e) =>
                             setForm({ ...form, phone: e.target.value })
                           }
-                          placeholder="(03) 9000 1234"
+                          placeholder="+1 (555) 000-0000"
                           data-ocid="audit.phone_input"
                         />
                       </div>

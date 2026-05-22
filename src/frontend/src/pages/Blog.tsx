@@ -102,7 +102,7 @@ const BLOG_POSTS: BlogPost[] = [
       "The trades industry has traditionally been slow to adopt technology, but that's changing fast. Tradies who are embracing digital tools are finding themselves with full diaries, better reviews, and more efficient operations — often with minimal effort or cost.",
       "A mobile-friendly website with a clear call to action is the single biggest differentiator for most tradies. When a homeowner has a burst pipe at 7pm, they're not calling around — they're Googling and calling the first plumber with a professional-looking site and a phone number that's easy to find. First impressions online are everything.",
       "Beyond the website, job management apps like Tradify or ServiceM8 let tradies quote, invoice, and schedule from their phones. When these tools are integrated with your website's contact form, every enquiry becomes a lead in your system automatically — no manual data entry, no missed follow-ups.",
-      "The technology bar for tradies is actually quite low. A well-built website, a Google Business Profile, and one job management tool is enough to out-compete the majority of the market. TechPro helps tradies get set up quickly, so they can focus on the work rather than the admin.",
+      "The technology bar for tradies is actually quite low. A well-built website, a Google Business Profile, and one job management tool is enough to out-compete the majority of the market. 1913.in helps tradies get set up quickly, so they can focus on the work rather than the admin.",
     ],
   },
   {
@@ -119,7 +119,7 @@ const BLOG_POSTS: BlogPost[] = [
       "Traditionally, small businesses dealt with IT on a break-fix basis: something goes wrong, you call an IT person, they fix it, you pay. It's reactive, unpredictable, and often more expensive than it needs to be — especially if the issue causes significant downtime.",
       "Managed IT Services turns this model on its head. Instead of waiting for something to break, a managed IT provider monitors your systems 24/7, applies patches and updates proactively, backs up your data automatically, and resolves issues before they become outages. All for a predictable monthly fee.",
       "The business case is straightforward. Downtime is expensive — even a half-day outage can cost a small business thousands in lost productivity and revenue. Managed IT dramatically reduces the frequency and severity of incidents. It also means your team isn't spending time troubleshooting IT problems instead of doing their actual jobs.",
-      "Managed IT isn't just for large organisations. Modern managed IT providers like TechPro offer scalable plans starting from a handful of users, making it accessible for sole traders and small teams. If your business relies on computers and the internet to function — which is almost every business — managed IT is worth serious consideration.",
+      "Managed IT isn't just for large organisations. Modern managed IT providers like 1913.in offer scalable plans starting from a handful of users, making it accessible for sole traders and small teams. If your business relies on computers and the internet to function — which is almost every business — managed IT is worth serious consideration.",
     ],
   },
   {
@@ -187,7 +187,7 @@ const BLOG_POSTS: BlogPost[] = [
       "Cybercriminals increasingly target small businesses because they're perceived as easier targets than large corporations. The Australian Cyber Security Centre (ACSC) reported that small businesses accounted for 43% of all cybercrime reports in 2024. The good news is that most of these attacks exploit easily preventable vulnerabilities.",
       "Step 1: Enable multi-factor authentication (MFA) on every account that offers it — especially email, accounting software, and banking. This single step prevents the vast majority of account takeover attacks. Step 2: Keep all software updated. Most ransomware attacks exploit known vulnerabilities in unpatched software.",
       "Step 3: Train your staff. Phishing emails — messages designed to trick staff into clicking malicious links or revealing credentials — are responsible for the majority of security breaches. Regular, simple security awareness training is highly effective. Step 4: Implement a proper backup strategy. Even if the worst happens, a recent clean backup means you can recover without paying a ransom.",
-      "Step 5: Use a business-grade email security solution. Basic email filters miss a significant proportion of sophisticated phishing attempts — a dedicated security layer dramatically improves detection rates. These steps aren't expensive or technically complex, but they require consistent implementation and monitoring. TechPro's managed IT security services handle all of this automatically for our clients.",
+      "These steps aren't expensive or technically complex, but they require consistent implementation and monitoring. 1913.in's managed IT security services handle all of this automatically for our clients.",
     ],
   },
 ];

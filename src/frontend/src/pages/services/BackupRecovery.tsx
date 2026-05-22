@@ -22,10 +22,10 @@ const backupTypes = [
     icon: Cloud,
     title: "Cloud Backup",
     badge: "Offsite Protection",
-    desc: "Automated, encrypted backups stored in Australian data centres. Runs silently in the background — no human intervention required.",
+    desc: "Automated, encrypted backups stored in secure certified data centres. Runs silently in the background — no human intervention required.",
     points: [
       "AES-256 encryption in transit and at rest",
-      "Australian data residency options",
+      "Regional data residency options",
       "Hourly, daily, or weekly schedules",
       "Accessible from anywhere for fast recovery",
     ],
@@ -51,7 +51,7 @@ const backupTypes = [
       "Fastest local restore capability",
       "Off-site protection against site disasters",
       "Automated sync between local and cloud",
-      "Recommended for most Australian SMBs",
+      "Recommended for most SMBs worldwide",
     ],
   },
 ];
@@ -91,9 +91,9 @@ const securityPoints = [
       "Military-grade encryption for all backup data at rest and in transit.",
   },
   {
-    label: "Australian data residency",
+    label: "Regional data residency",
     detail:
-      "Data stored in Australian data centres — no overseas jurisdiction risk.",
+      "Data stored in your preferred region — meeting local compliance and jurisdiction requirements.",
   },
   {
     label: "Compliance documentation",
@@ -179,15 +179,14 @@ export function BackupRecoveryPage() {
                     icon: Shield,
                     stat: "62%",
                     label:
-                      "increase in ransomware attacks against Australian businesses in 2024",
+                      "increase in ransomware attacks against businesses globally in 2024",
                     color: "text-orange-600",
                     bg: "bg-orange-100/60",
                   },
                   {
                     icon: Clock,
-                    stat: "AUD $275K",
-                    label:
-                      "average cost of a data breach for an Australian SMB",
+                    stat: "$275K+",
+                    label: "average cost of a data breach for an SMB globally",
                     color: "text-primary",
                     bg: "bg-primary/10",
                   },
@@ -335,8 +334,8 @@ export function BackupRecoveryPage() {
               </h2>
               <p className="text-sm text-muted-foreground leading-relaxed mb-6">
                 Our backup solutions meet the security and compliance
-                requirements of Australian healthcare, legal, and financial
-                services businesses — not just broad-brush SMB needs.
+                requirements of healthcare, legal, and financial services
+                businesses worldwide — not just broad-brush SMB needs.
               </p>
               <div className="space-y-3">
                 {securityPoints.map((pt, i) => (

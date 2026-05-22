@@ -109,8 +109,8 @@ export function TradiesPage() {
                 Most IT companies are built for office workers — they don't
                 understand what it's like to be on the tools at 6am, driving
                 between jobs, and trying to run a business at the same time. At
-                TechPro Services, we specialise in technology solutions designed
-                specifically for Australian tradespeople.
+                1913.in, we specialise in technology solutions designed
+                specifically for tradespeople wherever they operate.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Whether you're a solo electrician, a plumbing crew of five, or a
@@ -196,7 +196,7 @@ export function TradiesPage() {
             <SectionHeading
               label="Common Challenges"
               title="Pain Points Tradies Face Every Day"
-              subtitle="Sound familiar? These are the technology problems we hear from tradies all across Australia."
+              subtitle="Sound familiar? These are the technology problems we hear from tradies all around the world."
               className="mb-12"
             />
           </AnimatedSection>

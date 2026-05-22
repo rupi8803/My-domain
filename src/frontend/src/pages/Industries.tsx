@@ -12,7 +12,7 @@ export function IndustriesPage() {
       <PageHero
         label="Industry Solutions"
         title="IT & Web Solutions Built for Your Industry"
-        subtitle="We understand that every industry has unique challenges. Our tailored solutions address the specific needs of Australian businesses across key sectors."
+        subtitle="We understand that every industry has unique challenges. Our tailored solutions address the specific needs of businesses worldwide across key sectors."
         ctas={[
           {
             label: "Get Industry-Specific Advice",

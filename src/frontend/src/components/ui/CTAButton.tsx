@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 interface CTAButtonProps {
   label: string;
   href: string;
-  variant?: "primary" | "secondary" | "outline" | "outline-white";
+  variant?: "primary" | "secondary" | "outline" | "outline-white" | "hero";
   showArrow?: boolean;
   className?: string;
   "data-ocid"?: string;
@@ -28,6 +28,7 @@ export function CTAButton({
       "border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground font-semibold",
     "outline-white":
       "border-2 border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary font-semibold",
+    hero: "bg-white text-gray-900 border-2 border-white hover:bg-white/90 shadow-sm font-semibold",
   };
 
   return (

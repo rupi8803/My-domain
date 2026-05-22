@@ -50,7 +50,7 @@ const services = [
   {
     icon: Globe,
     title: "E-Commerce Website (Shopify or WooCommerce)",
-    desc: "High-converting online stores built on the platforms that power Australian retail — with payment gateways, SEO, and a mobile-first design.",
+    desc: "High-converting online stores built on the platforms that power retail businesses worldwide — with payment gateways, SEO, and a mobile-first design.",
     href: "/services/web-design",
   },
   {
@@ -79,7 +79,7 @@ export function RetailPage() {
       <PageHero
         label="Retail & E-Commerce"
         title="Technology Solutions for Retail — Sell More, Work Smarter, Grow Faster"
-        subtitle="From your first online store to managing multiple retail locations — we give Australian retailers the IT and web infrastructure to compete and grow."
+        subtitle="From your first online store to managing multiple retail locations — we give retail businesses worldwide the IT and web infrastructure to compete and grow."
         ctas={[
           {
             label: "Get Free Consultation",
@@ -141,7 +141,7 @@ export function RetailPage() {
             <SectionHeading
               label="How We Help"
               title="Everything a Modern Retailer Needs"
-              subtitle="Whether you're bricks-and-mortar, online-only, or both — TechPro delivers solutions that scale with your growth."
+              subtitle="Whether you're bricks-and-mortar, online-only, or both — 1913.in delivers solutions that scale with your growth."
               className="mb-12"
             />
           </AnimatedSection>

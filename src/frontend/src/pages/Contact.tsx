@@ -91,8 +91,8 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Business Hours",
-    value: "Mon–Fri: 8am–6pm AEST",
-    secondary: "Saturday: 9am–2pm AEST",
+    value: "Mon–Fri: 8am–6pm Your Local Time",
+    secondary: "Saturday: 9am–2pm Your Local Time",
     href: undefined,
     description: "Emergency IT support available 24/7",
   },
@@ -280,7 +280,7 @@ export function ContactPage() {
                                 email: e.target.value,
                               })
                             }
-                            placeholder="john@business.com.au"
+                            placeholder="john@business.com"
                             required
                             data-ocid="contact.email_input"
                           />
@@ -299,7 +299,7 @@ export function ContactPage() {
                                 phone: e.target.value,
                               })
                             }
-                            placeholder="(03) 9000 1234"
+                            placeholder="+1 (555) 000-0000"
                             required
                             data-ocid="contact.phone_input"
                           />
@@ -441,20 +441,11 @@ export function ContactPage() {
                   <div className="absolute inset-0 bg-primary/5 flex flex-col items-center justify-center text-center p-4">
                     <MapPin className="w-8 h-8 text-primary mb-2" />
                     <p className="font-semibold text-foreground text-sm">
-                      Level 5, 123 Collins Street
+                      Available Globally
                     </p>
                     <p className="text-muted-foreground text-xs">
-                      Melbourne VIC 3000
+                      Remote &amp; On-Site Worldwide
                     </p>
-                    <a
-                      href="https://maps.google.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-3 text-xs text-primary hover:underline font-medium"
-                      data-ocid="contact.map_link"
-                    >
-                      Open in Google Maps →
-                    </a>
                   </div>
                 </div>
               </Card>
@@ -558,7 +549,7 @@ export function ContactPage() {
                               email: e.target.value,
                             })
                           }
-                          placeholder="jane@business.com.au"
+                          placeholder="jane@business.com"
                           required
                           data-ocid="contact.consult_email_input"
                         />
@@ -577,7 +568,7 @@ export function ContactPage() {
                               phone: e.target.value,
                             })
                           }
-                          placeholder="(03) 9000 1234"
+                          placeholder="+1 (555) 000-0000"
                           required
                           data-ocid="contact.consult_phone_input"
                         />

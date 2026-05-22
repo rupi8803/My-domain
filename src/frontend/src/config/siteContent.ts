@@ -2,13 +2,13 @@ import type { SiteConfig } from "../types";
 
 export const siteConfig: SiteConfig = {
   company: {
-    name: "TechPro Services",
-    tagline: "Scalable IT & Web Solutions for Australian SMBs",
-    phone: "(03) 9000 1234",
-    email: "hello@techproservices.com.au",
-    address: "Level 5, 123 Collins Street, Melbourne VIC 3000",
-    abn: "ABN 12 345 678 901",
-    businessHours: "Mon–Fri: 8am–6pm AEST",
+    name: "1913.in",
+    tagline: "Scalable IT & Web Solutions for Businesses Worldwide",
+    phone: "+1 (555) 000-0000",
+    email: "hello@1913.in",
+    address: "Available Globally — Remote & On-Site",
+    abn: "",
+    businessHours: "Mon–Fri: 8am–6pm (Your Local Time)",
   },
   social: {
     facebook: "https://facebook.com/techproservices",
@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
       slug: "it-support",
       title: "IT Support (Small Business)",
       shortDescription:
-        "Fast, reliable on-site and remote IT support for Australian small businesses — when you need it most.",
+        "Fast, reliable on-site and remote IT support for small businesses worldwide — when you need it most.",
       icon: "Headphones",
       href: "/services/it-support",
     },
@@ -105,10 +105,10 @@ export const siteConfig: SiteConfig = {
 export const pageContent = {
   home: {
     hero: {
-      label: "Australian IT & Web Experts",
-      title: "Scalable IT & Web Solutions for Australian SMBs",
+      label: "Global IT & Web Experts",
+      title: "Scalable IT & Web Solutions for Businesses Worldwide",
       subtitle:
-        "TechPro Services delivers reliable IT support, managed services, and professional web development to help Australian businesses grow with confidence.",
+        "1913.in delivers reliable IT support, managed services, and professional web development to help businesses around the world grow with confidence.",
       primaryCTA: "Get Free Consultation",
       secondaryCTA: "Explore Services",
     },
@@ -124,33 +124,33 @@ export const pageContent = {
         role: "Principal, Seaside Medical",
         industry: "Medical",
         quote:
-          "TechPro Services transformed our practice's IT infrastructure, making everything run smoothly and securely. Their proactive approach gives us complete peace of mind.",
+          "1913.in transformed our practice's IT infrastructure, making everything run smoothly and securely. Their proactive approach gives us complete peace of mind.",
       },
       {
         name: "Marcus Webb",
         role: "Owner, Webb Electrical",
         industry: "Tradies",
         quote:
-          "As a tradie, I needed someone who understood my business. TechPro set up our website and keeps our systems running — I can focus on the job, not the tech.",
+          "As a tradie, I needed someone who understood my business. 1913.in set up our website and keeps our systems running — I can focus on the job, not the tech.",
       },
       {
         name: "Lian Phan",
         role: "Manager, The Grand Hotel",
         industry: "Hospitality",
         quote:
-          "Our POS integration and IT support from TechPro has been flawless. They're responsive, professional, and genuinely care about our success.",
+          "Our POS integration and IT support from 1913.in has been flawless. They're responsive, professional, and genuinely care about our success.",
       },
     ],
   },
   about: {
     hero: {
       label: "Who We Are",
-      title: "Australia's Trusted IT & Web Partner",
+      title: "The World's Trusted IT & Web Partner",
       subtitle:
-        "Over 12 years of helping Australian small and medium businesses navigate technology with confidence.",
+        "Over 12 years of helping small and medium businesses worldwide navigate technology with confidence.",
     },
     story:
-      "TechPro Services was founded in Melbourne in 2012 with a simple mission: make enterprise-grade IT accessible to every Australian business. We've since grown into a full-service technology partner, combining deep IT expertise with modern web development capabilities.",
+      "1913.in was founded in 2012 with a simple mission: make enterprise-grade IT accessible to every business, everywhere. We've since grown into a full-service technology partner, combining deep IT expertise with modern web development capabilities.",
     values: [
       {
         title: "Reliability",
@@ -165,7 +165,7 @@ export const pageContent = {
       {
         title: "Local Knowledge",
         description:
-          "We understand the Australian business landscape — compliance, connectivity, and costs.",
+          "We understand the global business landscape — compliance, connectivity, and costs across regions.",
       },
       {
         title: "Proactive Care",
@@ -303,9 +303,9 @@ export const pageContent = {
   portfolio: {
     hero: {
       label: "Our Work",
-      title: "Proven Results for Australian Businesses",
+      title: "Proven Results for Businesses Worldwide",
       subtitle:
-        "Real projects, real outcomes. See how we've helped businesses across Australia transform their technology.",
+        "Real projects, real outcomes. See how we've helped businesses across the globe transform their technology.",
     },
     cases: [
       {
@@ -313,7 +313,7 @@ export const pageContent = {
         industry: "Medical",
         title: "Complete IT Infrastructure Overhaul",
         description:
-          "Migrated 3 clinic locations to a unified managed IT environment, reducing downtime by 95% and achieving full compliance with Australian healthcare data standards.",
+          "Migrated 3 clinic locations to a unified managed IT environment, reducing downtime by 95% and achieving full compliance with healthcare data standards.",
         outcomes: [
           "95% reduction in downtime",
           "Full HIPAA compliance",
@@ -365,7 +365,7 @@ export const pageContent = {
   blog: {
     hero: {
       label: "Resources & Insights",
-      title: "IT & Web Tips for Australian Businesses",
+      title: "IT & Web Tips for Businesses Everywhere",
       subtitle:
         "Practical guides, industry news, and expert advice to help your business stay ahead with technology.",
     },
@@ -383,14 +383,14 @@ export const pageContent = {
         title:
           "WordPress vs Shopify: Which Platform Is Right for Your Business?",
         excerpt:
-          "A practical comparison of Australia's two most popular website platforms — and how to choose the right one.",
+          "A practical comparison of the world's two most popular website platforms — and how to choose the right one.",
         category: "Web Design",
         date: "28 February 2026",
         readTime: "7 min read",
         slug: "wordpress-vs-shopify",
       },
       {
-        title: "The Complete Guide to Data Backup for Australian SMBs",
+        title: "The Complete Guide to Data Backup for Growing SMBs",
         excerpt:
           "How to protect your business data with a robust backup strategy — without breaking the budget.",
         category: "Backup & Recovery",
@@ -408,8 +408,7 @@ export const pageContent = {
         slug: "choosing-pos-system-retail",
       },
       {
-        title:
-          "Cybersecurity Basics Every Australian Business Owner Should Know",
+        title: "Cybersecurity Basics Every Business Owner Should Know",
         excerpt:
           "Don't wait for a breach. Simple, practical steps to protect your business from the most common cyber threats.",
         category: "Security",
@@ -418,8 +417,7 @@ export const pageContent = {
         slug: "cybersecurity-basics-business",
       },
       {
-        title:
-          "Website Maintenance: Why It's Not Optional for Australian Businesses",
+        title: "Website Maintenance: Why It's Not Optional for Any Business",
         excerpt:
           "A neglected website is a security risk, a performance problem, and a brand liability. Here's why maintenance matters.",
         category: "Website Maintenance",
@@ -434,7 +432,7 @@ export const pageContent = {
       label: "Frequently Asked Questions",
       title: "Find the Answers You Need",
       subtitle:
-        "Everything you need to know about our IT support, web services, pricing, and how we work with Australian businesses.",
+        "Everything you need to know about our IT support, web services, pricing, and how we work with businesses worldwide.",
     },
     categories: [
       {
@@ -443,7 +441,7 @@ export const pageContent = {
         questions: [
           {
             q: "What areas do you service?",
-            a: "TechPro Services is headquartered in Melbourne, VIC, and provides services across all major Australian cities including Sydney, Brisbane, Perth, and Adelaide. Many of our services are delivered remotely, and we have partner technicians in most states for on-site requirements.",
+            a: "1913.in operates globally and provides services to businesses across the world. Many of our services are delivered remotely, and we have partner technicians in key regions for on-site requirements.",
           },
           {
             q: "What size businesses do you work with?",
@@ -495,7 +493,7 @@ export const pageContent = {
           },
           {
             q: "Do you offer 24/7 support?",
-            a: "Our Professional and Enterprise managed IT plans include 24/7 monitoring and after-hours support for critical issues. The Essential plan covers standard business hours (Mon–Fri, 8am–6pm AEST). We can discuss custom coverage schedules for businesses with unique requirements.",
+            a: "Our Professional and Enterprise managed IT plans include 24/7 monitoring and after-hours support for critical issues. The Essential plan covers standard business hours (Mon–Fri, 8am–6pm in your local timezone). We can discuss custom coverage schedules for businesses with unique requirements.",
           },
           {
             q: "Can you support remote workers?",
@@ -521,7 +519,7 @@ export const pageContent = {
           },
           {
             q: "How do I get a custom quote?",
-            a: "You can request a custom quote by submitting our online contact form, calling us on (03) 9000 1234, or booking a free consultation. We'll review your requirements and provide a detailed, itemised proposal within 2 business days.",
+            a: "You can request a custom quote by submitting our online contact form, calling us on +1 (555) 000-0000, or booking a free consultation. We'll review your requirements and provide a detailed, itemised proposal within 2 business days.",
           },
         ],
       },
@@ -553,7 +551,7 @@ export const pageContent = {
           },
           {
             q: "Where is my data stored?",
-            a: "Your data is stored in Australian data centres that meet Australian Privacy Act and ISO 27001 security standards. We do not store business data offshore unless specifically requested. You can request details on the data centre location and certifications at any time.",
+            a: "Your data is stored in secure, regionally compliant data centres that meet ISO 27001 security standards. We tailor data residency to your regional compliance requirements. You can request details on the data centre location and certifications at any time.",
           },
           {
             q: "How quickly can you restore from a backup?",
@@ -561,7 +559,7 @@ export const pageContent = {
           },
           {
             q: "Is my data stored in Australia?",
-            a: "Yes. All backup data for Australian clients is stored within Australian borders by default. We use Australian-based cloud infrastructure providers to ensure your data remains subject to Australian law and compliance requirements.",
+            a: "Yes. We store backup data in your preferred region by default to ensure compliance with local data sovereignty requirements. We use globally distributed cloud infrastructure providers to ensure your data remains subject to the appropriate legal and compliance framework.",
           },
         ],
       },

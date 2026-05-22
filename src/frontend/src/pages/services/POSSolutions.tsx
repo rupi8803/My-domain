@@ -129,7 +129,7 @@ export function POSSolutionsPage() {
     <>
       <PageHero
         label="POS Solutions"
-        title="Smart Point of Sale Systems for Australian Businesses"
+        title="Smart Point of Sale Systems for Businesses Worldwide"
         subtitle="Modern cloud-based POS that handles sales, inventory, and reporting in one place — set up and supported by our team end-to-end."
         ctas={[
           { label: "Get POS Demo", href: "/contact", variant: "primary" },

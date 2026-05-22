@@ -29,7 +29,7 @@ const platforms = [
     icon: ShoppingCart,
     badge: "Best for E-commerce",
     tagline: "E-commerce powerhouse, easy product management",
-    desc: "Australia's leading e-commerce platform. Built for product-based businesses ready to sell online at scale.",
+    desc: "The world's leading e-commerce platform. Built for product-based businesses ready to sell online at scale.",
     bestFor: ["Online stores", "Product catalogues", "Omnichannel retail"],
   },
   {
@@ -129,7 +129,7 @@ const highlights = [
   {
     icon: Smartphone,
     title: "Mobile-First Design",
-    desc: "Over 60% of Australian web traffic is mobile. Every site we build looks and performs perfectly on all screen sizes.",
+    desc: "Over 60% of global web traffic is mobile. Every site we build looks and performs perfectly on all screen sizes.",
   },
   {
     icon: Search,
@@ -149,7 +149,7 @@ export function WebDesignPage() {
       <PageHero
         label="Web Design & Development"
         title="Beautiful Websites That Drive Results"
-        subtitle="Professional websites for Australian businesses that attract customers, generate leads, and build brand credibility — on the platforms you know and trust."
+        subtitle="Professional websites that attract customers, generate leads, and build brand credibility — on the platforms you know and trust."
         ctas={[
           { label: "Book Consultation", href: "/contact", variant: "primary" },
           { label: "Get a Quote", href: "/contact", variant: "outline" },
@@ -167,7 +167,7 @@ export function WebDesignPage() {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Your website is your most powerful sales tool — and often the
                 first impression your business makes. We design and develop
-                professional websites for Australian businesses across every
+                professional websites for businesses worldwide across every
                 major platform, combining stunning design with solid technical
                 foundations to help you attract customers, generate leads, and
                 build lasting brand credibility.
@@ -364,7 +364,7 @@ export function WebDesignPage() {
             <SectionHeading
               label="Case Studies"
               title="Real Websites. Real Results."
-              subtitle="See how we've helped Australian businesses build their online presence."
+              subtitle="See how we've helped businesses worldwide build their online presence."
               className="mb-12"
             />
           </AnimatedSection>

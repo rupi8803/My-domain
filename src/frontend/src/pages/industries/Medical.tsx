@@ -22,7 +22,7 @@ const challenges = [
   {
     icon: Lock,
     title: "Patient Data Security & Privacy",
-    desc: "Healthcare holds the most sensitive personal data. A breach doesn't just damage your practice — it harms your patients and can violate Australian law.",
+    desc: "Healthcare holds the most sensitive personal data. A breach doesn't just damage your practice — it harms your patients and can violate data privacy laws in your region.",
   },
   {
     icon: MonitorCheck,
@@ -55,8 +55,8 @@ const services = [
   },
   {
     icon: HardDrive,
-    title: "Backup & Recovery — Australian Data",
-    desc: "Medical-grade backup with Australian data residency, meeting Privacy Act and My Health Record obligations.",
+    title: "Backup & Recovery — Regional Data",
+    desc: "Medical-grade backup with regional data residency, meeting data privacy compliance and health records integration obligations.",
     href: "/services/backup-recovery",
   },
   {
@@ -74,8 +74,8 @@ const services = [
 ];
 
 const complianceItems = [
-  "Australian Privacy Act compliance guidance",
-  "My Health Record integration support",
+  "Data privacy compliance guidance",
+  "Health records integration support",
   "HIPAA-aligned security practices",
   "Encrypted data storage and transmission",
   "Secure email and data handling best practices",
@@ -148,7 +148,7 @@ export function MedicalPage() {
             <SectionHeading
               label="How We Help"
               title="Healthcare IT That Puts Patients First"
-              subtitle="Security-first solutions designed for the unique demands of Australian medical practices."
+              subtitle="Security-first solutions designed for the unique demands of medical practices worldwide."
               className="mb-12"
             />
           </AnimatedSection>
@@ -218,7 +218,7 @@ export function MedicalPage() {
                     </h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
                       Firewalls, VPNs, network segmentation, and endpoint
-                      protection — built to meet Australian healthcare data
+                      protection — built to meet international healthcare data
                       security standards.
                     </p>
                   </div>
@@ -244,21 +244,21 @@ export function MedicalPage() {
                 className="mb-6"
               />
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Australian medical practices must meet strict data privacy and
-                security obligations under the Privacy Act 1988, the My Health
-                Records Act, and RACGP security standards. Non-compliance is not
-                just a legal risk — it erodes patient trust.
+                Medical practices must meet strict data privacy and security
+                obligations under regional data privacy regulations, health
+                records acts, and security standards. Non-compliance is not just
+                a legal risk — it erodes patient trust.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                TechPro doesn't just manage your IT — we actively help you
+                1913.in doesn't just manage your IT — we actively help you
                 understand and maintain your compliance posture. Our team
                 provides guidance, documentation, and technical controls aligned
-                to Australian healthcare requirements.
+                to your regional healthcare requirements.
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Privacy Act 1988",
-                  "My Health Record",
+                  "Data Privacy Compliance",
+                  "Health Records Integration Support",
                   "RACGP Security",
                   "HIPAA-Aligned",
                 ].map((tag) => (

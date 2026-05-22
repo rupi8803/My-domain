@@ -81,7 +81,7 @@ const servicesData: ServiceDetail[] = [
     title: "IT Support for Small Business",
     icon: "Headphones",
     description:
-      "Fast, friendly IT support for Australian small businesses — available remotely or on-site. We resolve computer issues, network problems, email setup, and device configuration so your team stays productive. No jargon, no long wait times, just practical help from experienced technicians who understand your business.",
+      "Fast, friendly IT support for small businesses worldwide — available remotely or on-site. We resolve computer issues, network problems, email setup, and device configuration so your team stays productive. No jargon, no long wait times, just practical help from experienced technicians who understand your business.",
     features: [
       "Remote & on-site support",
       "Help desk (business hours)",
@@ -95,7 +95,7 @@ const servicesData: ServiceDetail[] = [
     title: "Managed IT Services",
     icon: "Shield",
     description:
-      "Outsource your entire IT environment to TechPro for a predictable monthly fee. We proactively monitor, maintain, and manage your infrastructure — servers, workstations, cloud services, and security — so issues are prevented before they cause disruption. You get enterprise-grade IT without the cost of an in-house team.",
+      "Outsource your entire IT environment to 1913.in for a predictable monthly fee. We proactively monitor, maintain, and manage your infrastructure — servers, workstations, cloud services, and security — so issues are prevented before they cause disruption. You get enterprise-grade IT without the cost of an in-house team.",
     features: [
       "24/7 infrastructure monitoring",
       "Proactive maintenance & patching",
@@ -173,7 +173,7 @@ export function ServicesPage() {
       <PageHero
         label="Our Services"
         title="Complete IT and Web Solutions for Your Business"
-        subtitle="TechPro provides end-to-end technology solutions. Whether you need a new website or full IT infrastructure management, we've got you covered."
+        subtitle="1913.in provides end-to-end technology solutions. Whether you need a new website or full IT infrastructure management, we've got you covered globally."
         ctas={[
           {
             label: "Get Free Consultation",

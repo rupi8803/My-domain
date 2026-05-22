@@ -35,8 +35,8 @@ export function Footer() {
               {siteConfig.company.name}
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-5 max-w-xs">
-              Helping Australian small businesses grow with professional IT
-              support and web solutions since 2012.
+              Helping businesses worldwide grow with professional IT support and
+              web solutions since 2012.
             </p>
             <div className="space-y-2.5 text-sm">
               <a
@@ -150,7 +150,9 @@ export function Footer() {
               © {year} {siteConfig.company.name}. All rights reserved.
             </span>
             <span className="hidden sm:inline">·</span>
-            <span className="hidden sm:inline">{siteConfig.company.abn}</span>
+            {siteConfig.company.abn && (
+              <span className="hidden sm:inline">{siteConfig.company.abn}</span>
+            )}
           </div>
           <div className="flex items-center gap-4">
             <Link to="/faq" className="hover:text-primary transition-colors">

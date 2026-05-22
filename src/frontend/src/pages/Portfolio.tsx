@@ -132,7 +132,7 @@ const CASE_STUDIES: CaseStudy[] = [
     results: [
       "70% reduction in IT support incidents within 3 months",
       "Critical issues now resolved in under 1 hour on average",
-      "Full compliance with Australian healthcare data standards",
+      "Full compliance with international healthcare data standards",
       "Staff satisfaction with IT improved from 4.1 to 8.7/10",
     ],
   },
@@ -484,7 +484,7 @@ export function PortfolioPage() {
       <PageHero
         label="Portfolio & Case Studies"
         title="Real Results for Real Businesses"
-        subtitle="Explore how we've helped Australian businesses transform their technology — from tradie websites to full managed IT rollouts."
+        subtitle="Explore how we've helped businesses around the world transform their technology — from websites to full managed IT rollouts."
         ctas={[
           {
             label: "Book Free Consultation",

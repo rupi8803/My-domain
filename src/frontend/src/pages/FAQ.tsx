@@ -91,7 +91,7 @@ export function FAQPage() {
       <PageHero
         label="Frequently Asked Questions"
         title="Find the Answers You Need"
-        subtitle="Everything you need to know about our IT support, web services, pricing, and how we work with Australian businesses."
+        subtitle="Everything you need to know about our IT support, web services, pricing, and how we work with businesses worldwide."
         compact
       />
 

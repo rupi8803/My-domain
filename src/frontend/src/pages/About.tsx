@@ -61,7 +61,7 @@ const itExpertise = {
     "Microsoft 365 & Azure administration",
     "Hardware procurement & lifecycle management",
     "Cybersecurity frameworks & compliance",
-    "On-site & remote support across Australia",
+    "On-site & remote support worldwide",
     "Disaster recovery & business continuity planning",
   ],
 };
@@ -122,9 +122,9 @@ export function AboutPage() {
     <>
       {/* Hero */}
       <PageHero
-        label="About TechPro Services"
-        title="Your Local Technology Partner"
-        subtitle="We're an Australian-owned IT and web services company dedicated to helping small and medium businesses grow confidently with technology — from your first website to a fully managed IT environment."
+        label="About 1913.in"
+        title="Your Global Technology Partner"
+        subtitle="We're a global IT and web services company dedicated to helping small and medium businesses everywhere grow confidently with technology — from your first website to a fully managed IT environment."
         ctas={[
           { label: "Book Consultation", href: "/contact", variant: "primary" },
           { label: "Our Services", href: "/services", variant: "outline" },
@@ -139,17 +139,17 @@ export function AboutPage() {
             <AnimatedSection direction="left">
               <SectionHeading
                 label="Our Story"
-                title="Built to Support Australian Businesses"
+                title="Built to Support Businesses Worldwide"
                 align="left"
                 className="mb-6"
               />
               <p className="text-muted-foreground leading-relaxed mb-4">
-                TechPro Services was founded with a straightforward mission:
-                make enterprise-grade technology accessible and affordable for
-                every Australian small business. We saw too many SMBs struggling
-                with slow computers, unreliable websites, and tech providers who
-                didn't understand the unique challenges of running a business in
-                Australia.
+                1913.in was founded with a straightforward mission: make
+                enterprise-grade technology accessible and affordable for every
+                small business, worldwide. We saw too many SMBs struggling with
+                slow computers, unreliable websites, and tech providers who
+                didn't understand the unique challenges of running a growing
+                business.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 We started by helping local businesses with their day-to-day IT
@@ -242,7 +242,7 @@ export function AboutPage() {
             <SectionHeading
               label="Skills & Expertise"
               title="Deep Knowledge Across IT & Web"
-              subtitle="Our team holds certifications and real-world experience across the full stack of technology services Australian businesses need."
+              subtitle="Our team holds certifications and real-world experience across the full stack of technology services businesses around the world need."
               className="mb-12"
             />
           </AnimatedSection>
@@ -336,7 +336,7 @@ export function AboutPage() {
             <SectionHeading
               label="Who We Are"
               title="Experienced, Certified, Local"
-              subtitle="Get to know the principal consultant and the values behind TechPro Services."
+              subtitle="Get to know the principal consultant and the values behind 1913.in."
               className="mb-12"
             />
           </AnimatedSection>
@@ -362,19 +362,19 @@ export function AboutPage() {
                         Founder & Principal Consultant
                       </div>
                       <div className="text-muted-foreground text-xs mt-0.5">
-                        Melbourne, Australia
+                        Global Operations
                       </div>
                     </div>
                   </div>
                   <div className="px-8 py-6 space-y-4">
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       With over 10 years in enterprise IT support and 5+ years
-                      building websites for Australian businesses, James founded
-                      TechPro Services to bridge the gap between complex
+                      building websites for businesses across the globe, James
+                      founded 1913.in to bridge the gap between complex
                       technology and the real-world needs of SMBs.
                     </p>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      Before starting TechPro, James worked as a senior IT
+                      Before starting 1913.in, James worked as a senior IT
                       engineer supporting multi-site enterprise environments,
                       gaining deep expertise in networking, security, and
                       infrastructure. He recognised that small businesses
@@ -431,7 +431,7 @@ export function AboutPage() {
                       { icon: Monitor, label: "Windows & Mac Expert" },
                       { icon: BookOpen, label: "Continuous Learning" },
                       { icon: Zap, label: "Fast Response" },
-                      { icon: Globe, label: "National Coverage" },
+                      { icon: Globe, label: "Global Coverage" },
                     ].map((item, i) => (
                       <div
                         key={item.label}

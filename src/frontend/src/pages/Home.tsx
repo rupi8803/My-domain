@@ -26,13 +26,13 @@ const whyStats = [
     icon: Award,
     value: "12+",
     label: "Years Experience",
-    sublabel: "Serving Australian SMBs since 2012",
+    sublabel: "Delivering IT & web solutions since 2012",
   },
   {
     icon: Users,
     value: "500+",
     label: "Businesses Helped",
-    sublabel: "Across all major Australian cities",
+    sublabel: "Clients spanning multiple countries",
   },
   {
     icon: ShieldCheck,
@@ -52,7 +52,7 @@ const whyPoints = [
   "No lock-in contracts — earn your business every month",
   "Certified across Windows, macOS, iOS, and Android",
   "Transparent pricing — no hidden fees or surprise bills",
-  "Australian-owned and locally operated since 2012",
+  "Remote-first with global partner technician network",
   "Dedicated account manager for every client",
 ];
 
@@ -100,18 +100,21 @@ export function HomePage() {
               {home.hero.label}
             </Badge>
             <h1 className="font-display font-bold text-primary-foreground text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight max-w-3xl mb-6">
-              Professional IT and Web Solutions for Australian Businesses
+              Professional IT and Web Solutions for Businesses Worldwide
             </h1>
-            <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl leading-relaxed mb-10">
-              Helping small and medium Australian businesses thrive online and
-              with technology — from custom websites to fully managed IT
-              infrastructure.
+            <p
+              className="text-lg md:text-xl max-w-2xl leading-relaxed mb-10"
+              style={{ color: "#cccccc" }}
+            >
+              Helping small and medium businesses thrive online and with
+              technology — from custom websites to fully managed IT
+              infrastructure, delivered globally.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton
                 label="Get Free Consultation"
                 href="/contact"
-                variant="primary"
+                variant="hero"
                 showArrow
                 data-ocid="home.hero_primary_cta"
               />
@@ -134,7 +137,7 @@ export function HomePage() {
         <div className="container py-5">
           <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-muted-foreground">
             {[
-              "✅ Australian-Owned Business",
+              "🌐 Serving Clients Worldwide",
               "⚡ <1-Hour Critical Response",
               "🔒 99.9% Uptime SLA",
               "🚫 No Lock-In Contracts",
@@ -158,7 +161,7 @@ export function HomePage() {
             <SectionHeading
               label="What We Do"
               title="Comprehensive IT & Web Services"
-              subtitle="Everything your Australian business needs to stay connected, secure, and growing online."
+              subtitle="Everything your business needs to stay connected, secure, and growing online — wherever you are in the world."
               className="mb-12"
             />
           </AnimatedSection>
@@ -192,9 +195,9 @@ export function HomePage() {
         <div className="container">
           <AnimatedSection>
             <SectionHeading
-              label="Why TechPro Services"
-              title="Local Experts Who Actually Show Up"
-              subtitle="We're not a call centre. We're a Melbourne-based team that knows Australian businesses — from the NBN to the GST."
+              label="Why 1913.in"
+              title="Global Experts Who Actually Show Up"
+              subtitle="We're not a call centre. We're a dedicated team that understands the unique challenges businesses face — wherever they operate."
               className="mb-12"
             />
           </AnimatedSection>
@@ -294,7 +297,7 @@ export function HomePage() {
             <SectionHeading
               label="Industry Verticals"
               title="Tailored for Your Industry"
-              subtitle="We understand the unique challenges of Australian businesses across key sectors."
+              subtitle="We understand the unique challenges businesses face across key sectors, globally."
               className="mb-12"
             />
           </AnimatedSection>
@@ -338,7 +341,7 @@ export function HomePage() {
           <AnimatedSection>
             <SectionHeading
               label="Client Stories"
-              title="Trusted by Australian Businesses"
+              title="Trusted by Businesses Worldwide"
               subtitle="See how we've helped businesses like yours transform their technology."
               className="mb-12"
             />
@@ -389,7 +392,7 @@ export function HomePage() {
               <SectionHeading
                 label="Resources & Insights"
                 title="Latest from Our Blog"
-                subtitle="Practical IT and web tips for Australian businesses."
+                subtitle="Practical IT and web tips for businesses worldwide."
                 align="left"
                 className="mb-0"
               />
@@ -462,7 +465,7 @@ export function HomePage() {
             </h2>
             <p className="text-primary-foreground/80 text-lg max-w-xl mx-auto mb-10">
               Book a free IT audit or 30-minute consultation and discover how
-              TechPro Services can take your business to the next level.
+              1913.in can take your business to the next level.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <CTAButton

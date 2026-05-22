@@ -97,7 +97,7 @@ const supportOptions = [
     icon: Headphones,
     title: "On-site Support",
     subtitle: "We come to you",
-    desc: "When remote support isn't enough, our Melbourne-based technicians come to your premises. Covering Metro Melbourne and surrounding areas.",
+    desc: "When remote support isn't enough, our certified technicians come to your premises. Covering major cities with partner technicians available globally.",
     badge: "",
     highlight: false,
   },
@@ -394,13 +394,12 @@ export function ITSupportPage() {
             </div>
             <div className="flex-1 text-center md:text-left">
               <h3 className="font-display font-bold text-foreground text-xl mb-2">
-                Serving Melbourne & Australia-Wide
+                Supporting Businesses Worldwide
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Headquartered in Melbourne with remote support capability
-                nationwide. On-site visits available across Metro Melbourne and
-                surrounding suburbs. Partner technicians available in Sydney,
-                Brisbane, Perth, and Adelaide.
+                Remote support capability globally. On-site visits available in
+                major cities with certified partner technicians across multiple
+                regions. Contact us to check local coverage in your area.
               </p>
             </div>
             <CTAButton
